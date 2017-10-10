@@ -30,6 +30,6 @@ var server=http.createServer(function(req,res){
 
     }
 });
-server.listen(8000,'127.0.0.1',function () {
-    console.log('服务器运行中...地址是http://'+server.address().address+':'+server.address().port);
+server.listen(88,"127.0.0.1",function () {
+    console.log("服务器已开启..."+ "http://"+server.address().address+":"+server.address().port)
 });
